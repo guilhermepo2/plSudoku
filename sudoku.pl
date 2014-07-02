@@ -1,4 +1,4 @@
-:- use_module(library(clpfd)). %biblioteca para usar ins/2 - all_different/
+:- use_module(library(clpfd)). %biblioteca para usar ins/2 - all_different/1 e labeling/2
 
 resolver(S) :-
      sudoku(S),
